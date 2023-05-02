@@ -57,3 +57,43 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ```
 
+## 2) Setup AWS Credentials
+
+- To proceed with setting up the Kubernetes cluster, the next step is to set up the AWS credentials, which will enable the usage of eksctl and kubectl command-line tools for managing the cluster. Here is a step-by-step guide for fetching the AWS credentials:
+- Log in to your AWS account.
+- Go to Security Credentials.
+- Click on Access Keys.
+- Create a new Access Key.
+- Open the terminal/command prompt.
+- Run the command "aws configure".
+- Enter the AWS Access Key ID and AWS secret access key when prompted.
+
+```
+AWS Access Key ID [None]: <ENTER_YOU_ACCESS_KEY>
+AWS Secret Access Key [None]: <ENTER_ACCESS_KEY>
+Default region name [None]: <ENTER_THE_REGION>
+Default output format [None]: json
+```
+
+## 3) Install kubectl
+- The next tool which we are going to install is the kubectl for managing the Kubernetes cluster.
+- Run the following command to download the kubectl binary file:
+```
+curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+- Change the permission of the downloaded binary file to make it executable using the following command:
+```
+chmod +x ./kubectl 
+```
+- Move the kubectl binary file to /usr/local/bin directory with the following command:
+```
+sudo mv ./kubectl /usr/local/bin
+```
+
+- Verify the kubectl installation by running the following command:
+```
+kubectl version
+```
+![kubectl version](https://user-images.githubusercontent.com/110182832/235617647-b8dd4712-6d51-4bae-a67e-1aa83966da58.PNG)
+
+
