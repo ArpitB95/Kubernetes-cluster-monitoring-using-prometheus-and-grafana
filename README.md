@@ -254,5 +254,15 @@ kubectl get service -n grafana
 - Enter username & password as mentioned in step-8 (username- admin , password- EKS!sAWSome )
 
 ## 9) Import Grafana dashboard from Grafana Labs
-- we can import any dashboard which has already created 
-- we can import dashboard by number
+- we can import any dashboard which has already created (use this link to check dashboards: https://grafana.com/grafana/dashboards/ )
+- we can import dashboard by its ID, here I have imported a dashboard ID 6417
+
+![Inkedgrafana dashboard id](https://user-images.githubusercontent.com/110182832/235632924-c264e162-a7d6-442d-9b17-6d2d3fafd90c.jpg)
+
+- after giving ID, click import and select prometheus as a data source
+
+- Your final dashboard will look like this: 
+
+![dashboard-1](https://user-images.githubusercontent.com/110182832/235633187-d69f2182-30cc-41d9-b634-8b9780882a2a.PNG)
+
+- It shows metrics of your kubernetes cluster.
