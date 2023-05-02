@@ -1,9 +1,9 @@
 # Kubernetes-cluster-monitoring-using-prometheus-and-grafana
 
 
-# - This post walks through the process of setting up a Kubernetes cluster on AWS and configuring Prometheus and Grafana for monitoring performance metrics. Prometheus and Grafana are widely used open-source tools that help Site Reliability Engineers (SREs) measure site reliability.
+- This repo walks through the process of setting up a Kubernetes cluster on AWS and configuring Prometheus and Grafana for monitoring performance metrics. Prometheus and Grafana are widely used open-source tools that help Site Reliability Engineers (SREs) measure site reliability.
 
-- The post provides step-by-step instructions for installing command-line tools such as AWS CLI, eksctl, kubectl, and Helm Chart. Once the environment is set up, the post explains how to install and configure Prometheus and Grafana, including setting up custom dashboards. With this guide, readers can easily set up a reliable monitoring system for their Kubernetes cluster on AWS.
+- The repo provides step-by-step instructions for installing command-line tools such as AWS CLI, eksctl, kubectl, and Helm Chart. Once the environment is set up, the post explains how to install and configure Prometheus and Grafana, including setting up custom dashboards. With this guide, readers can easily set up a reliable monitoring system for their Kubernetes cluster on AWS.
 
 ## In order to accomplish the task, we will follow these steps:
 
@@ -21,7 +21,7 @@
 
 ## 1) Install AWS CLI and eksctl:
 
-- Here, I've installed AWS CLI and eksctl in  Linux x86(64-bit) operating system.
+- Here, I've used Linux x86(64-bit) operating system.
 
 - Enter the following command to download the AWS CLI installation package:
 ```
