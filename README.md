@@ -5,6 +5,9 @@
 
 - The repo provides step-by-step instructions for installing command-line tools such as AWS CLI, eksctl, kubectl, and Helm Chart. Once the environment is set up, the post explains how to install and configure Prometheus and Grafana, including setting up custom dashboards. With this guide, readers can easily set up a reliable monitoring system for their Kubernetes cluster on AWS.
 
+![dia](https://user-images.githubusercontent.com/110182832/235635545-444919cf-f828-4088-82fd-239f340700a9.PNG)
+
+
 ## In order to accomplish the task, we will follow these steps:
 
 1) Install AWS CLI and eksctl
