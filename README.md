@@ -190,7 +190,9 @@ helm install prometheus prometheus-community/prometheus \
     --set server.persistentVolume.storageClass="gp2" 
 ```
 
-![prometheus installation checking](https://user-images.githubusercontent.com/110182832/235624682-887bece7-74a2-42df-845c-854e40c53509.PNG)
+![Inkedgrafana](https://github.com/ArpitB95/Kubernetes-cluster-monitoring-using-prometheus-and-grafana/assets/110182832/e50f47bc-7037-4367-9158-9c0457c8d102)
+
+
 
 
 ## 8) Install grafana
@@ -238,7 +240,8 @@ helm install grafana grafana/grafana \
 kubectl get all -n grafana
 ```
 
-![grafana installation checking](https://user-images.githubusercontent.com/110182832/235626240-6fd170f2-0fe8-49aa-a479-2b42df8929b7.PNG)
+![Inkedgrafana-1](https://github.com/ArpitB95/Kubernetes-cluster-monitoring-using-prometheus-and-grafana/assets/110182832/b8177f61-2412-429b-bd5c-1ccaaab19701)
+
 
 
 - Access grafana through your browser
@@ -247,12 +250,14 @@ kubectl get all -n grafana
 kubectl get service -n grafana 
 ```
 
-![Inkedgrafana installation checking](https://user-images.githubusercontent.com/110182832/235627375-24c986fd-0307-4d27-9666-898e81c6c17f.jpg)
+![Inkedgrafana-2](https://github.com/ArpitB95/Kubernetes-cluster-monitoring-using-prometheus-and-grafana/assets/110182832/d4094b3e-aa7f-4ea4-a873-b43deac01319)
+
 
 - copy EXTERNEL IP and paste it in your browser
 - A new grafana login page will appear
 
-![grafana from browser](https://user-images.githubusercontent.com/110182832/235628023-0cad2fba-3541-40bb-b3f7-839bb2271bf4.PNG)
+![Inkedgrafana dashboard](https://github.com/ArpitB95/Kubernetes-cluster-monitoring-using-prometheus-and-grafana/assets/110182832/21118142-8f90-4d0c-8f05-09dfe6eeeaaf)
+
 
 - Enter username & password as mentioned in step-8 (username- admin , password- EKS!sAWSome )
 
